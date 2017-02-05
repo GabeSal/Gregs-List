@@ -6,6 +6,7 @@ body {
   width: 100%;
   height: auto;
   padding: 80px;
+  background-color: #ebf0fa;
 }
 
 header {
@@ -75,15 +76,25 @@ label {
   display: block;
   margin-left: 10px;
   margin-bottom: 35px;
+
+  text-decoration: underline;
 }
 
 .search-space {
   height: 35px;
+  box-shadow: 0 2px 10px #999999;
   font-size: 20px;
   border: 2px solid #CCCCCC;
   border-radius: 5px;
   padding: 0px 10px 0px 10px;
-  width: 450px;  
+  width: 450px;
+
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.search-space:hover {
+  box-shadow: 1px 4px 10px #333333;
 }
 
 form button {
@@ -92,6 +103,13 @@ form button {
   border: 2px solid #CCCCCC;
   border-radius: 5px;
   padding: 0px 10px 0px 10px;
+
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+form button:hover {
+  box-shadow: 0 0 10px #00AAFF;
 }
 
 .search-icon {
@@ -117,6 +135,12 @@ img {
   border-radius: 5px;
 }
 
+.page-button:hover {
+  background-color: #EEEEEE;
+  color: #002966;
+  text-shadow: 0 0 10px #0066FF;
+}
+
 nav a {
   text-decoration: none;
 }
@@ -132,7 +156,7 @@ nav a {
   font-family: Verdana;
   font-weight: bold;
   font-size: 18px;
-  color: #BBBBBB;
+  color: #333333;
 }
 
 a.jobs {
@@ -141,4 +165,14 @@ a.jobs {
   font-family: Verdana;
   font-weight: bold;
   font-size: 18px;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px #999999;
+
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+a.jobs:hover {
+  text-shadow: 0 0 3px #0000FF, 0 0 5px #DDDDDD;
+  text-decoration: underline;
 }
