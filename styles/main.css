@@ -6,7 +6,8 @@ body {
   width: 100%;
   height: auto;
   padding: 80px;
-  background-color: #ebf0fa;
+  background-color: #EBF0FA;
+  color: #BBBFC7;
 }
 
 header {
@@ -51,14 +52,14 @@ header a:hover {
 }
 
 .top-link {
-  color: purple;
+  color: #73767A;
   font-size: 22px;
   padding-right: 10px;
   padding-bottom: 6px;
 }
 
 .top-link:hover {
-  color: lightgreen;
+  color: white;
   text-decoration: underline;
 }
 
@@ -133,12 +134,13 @@ img {
   display: inline-block;
   padding: 10px 15px;
   border-radius: 5px;
+  color: #73767A;
 }
 
 .page-button:hover {
-  background-color: #EEEEEE;
-  color: #002966;
-  text-shadow: 0 0 10px #0066FF;
+  background-color: #4E5D7A;
+  color: #EBF0FA;
+  text-shadow: 0 0 10px #A1BFFB;
 }
 
 nav a {
@@ -156,23 +158,18 @@ nav a {
   font-family: Verdana;
   font-weight: bold;
   font-size: 18px;
-  color: #333333;
+  color: #BBBFC7;
 }
 
 a.jobs {
+  color: #73767A;
   margin-left: 15px;
   margin-right: 15px;
   font-family: Verdana;
-  font-weight: bold;
   font-size: 18px;
   text-decoration: none;
-  text-shadow: 2px 2px 1px #999999;
-
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
 }
 
 a.jobs:hover {
-  text-shadow: 0 0 3px #0000FF, 0 0 5px #DDDDDD;
-  text-decoration: underline;
+  font-size: 18.1px;
 }
