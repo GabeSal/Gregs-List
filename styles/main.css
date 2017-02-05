@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  padding: 80px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #eaedea;
+  border-bottom: 2px solid #dadada;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.logo {
+  display: inline-block;
+  border-radius: 100%;
+  font-family: Georgia;
+  font-weight: 800;
+}
+
+header a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.logo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+.top-nav {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.top-link {
+  color: purple;
+  font-size: 22px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+}
+
+.top-link:hover {
+  color: lightgreen;
+  text-decoration: underline;
+}
+
+form {
+  left: 0;
+  margin-top: 50px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+label {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 35px;
+}
+
+.search-space {
+  height: 35px;
+  font-size: 20px;
+  border: 2px solid #CCCCCC;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+  width: 450px;  
+}
+
+form button {
+  height: 35px;
+  background-color: white;
+  border: 2px solid #CCCCCC;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+}
+
+.search-icon {
+  vertical-align: bottom;
+}
+
+img {
+  width: 25px;
+}
+
+.nav-page {
+  display: inline-block;
+  font-size: 0;
+  margin-bottom: 50px;
+  border: 2px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+.page-button {
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.items-display {
+  font-size: 18px;
+  padding: 10px 15px;
+  border-left: 2px solid #CCCCCC;
+  border-right: 2px solid #CCCCCC;
+}
+
+.date, .location {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 18px;
+  color: #BBBBBB;
+}
+
+a.jobs {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 18px;
+}
